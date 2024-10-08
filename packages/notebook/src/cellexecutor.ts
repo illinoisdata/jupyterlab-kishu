@@ -90,6 +90,7 @@ export async function runCell({
             }
           );
           deletedCells.splice(0, deletedCells.length);
+          console.log("SAVING CELL");
 
           ran = (() => {
             if (cell.isDisposed) {
